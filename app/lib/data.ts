@@ -61,23 +61,23 @@ import twitterBot from '@/public/twitter-bot.png'
 export const links = [
   {
     hash: '#home',
-    label: 'Home',
+    label: 'Accueil',
   },
   {
     hash: '#about',
-    label: 'About',
+    label: 'A propos',
   },
   {
     hash: '#skills',
-    label: 'Skills',
+    label: 'Compétences et projets',
   },
   {
     hash: '#projects',
-    label: 'Projects',
+    label: 'Projets',
   },
   {
     hash: '#experience',
-    label: 'Experience',
+    label: 'Expérience',
   },
   {
     hash: '#contact',
@@ -89,17 +89,17 @@ export const socials = [
   {
     name: 'LinkedIn',
     icon: FaLinkedin,
-    href: 'https://www.linkedin.com/in/alex-ross-32b278236/',
+    href: 'https://www.linkedin.com/in/pauline-benghouzi-00a047297/',
   },
   {
     name: 'GitHub',
     icon: FaGithub,
-    href: 'https://www.github.com/aross2010',
+    href: 'https://github.com/PaulineBGZI',
   },
   {
     name: 'Email',
     icon: FaEnvelope,
-    href: 'mailto:@alex.ross@sjsu.edu',
+    href: 'mailto:pauline.benghouzi@gmail.com',
   },
 ] as const
 

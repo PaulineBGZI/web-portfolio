@@ -8,7 +8,7 @@ import { useSectionInView } from '../lib/hooks'
 import { motion } from 'framer-motion'
 
 export default function About() {
-  const { ref } = useSectionInView('About', 0.5)
+  const { ref } = useSectionInView('A propos', 0.5)
 
   const renderedInterests = interests.map((interest, i) => {
     return (

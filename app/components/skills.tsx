@@ -5,7 +5,7 @@ import IconCard from './ui/icon-card'
 import { motion } from 'framer-motion'
 
 export default function Skills() {
-  const { ref } = useSectionInView('Skills', 0.75)
+  const { ref } = useSectionInView('Compétences et projets', 0.75)
 
   const renderedSkills = skills.map((skill, i) => {
     return (

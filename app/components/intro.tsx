@@ -6,7 +6,7 @@ import { RiDownloadLine } from 'react-icons/ri'
 import Button from './ui/button'
 
 export default function Intro() {
-  const { ref } = useSectionInView('Home', 0.75)
+  const { ref } = useSectionInView('Accueil', 0.75)
 
   const renderedSocials = socials.map(({ name, icon: Icon, href }) => {
     return (

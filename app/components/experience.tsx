@@ -7,7 +7,7 @@ import { useSectionInView, useWindowSizeHook } from '../lib/hooks'
 export default function Experience() {
   const width = useWindowSizeHook()
 
-  const { ref } = useSectionInView('Experience', width > 700 ? 0.5 : 0.3)
+  const { ref } = useSectionInView('Expérience', width > 700 ? 0.5 : 0.3)
   return (
     <section
       ref={ref}

@@ -10,7 +10,7 @@ import { Fragment } from 'react'
 export default function Projects() {
   const width = useWindowSizeHook()
 
-  const { ref } = useSectionInView('Projects', width > 700 ? 0.4 : 0.15)
+  const { ref } = useSectionInView('Projets', width > 700 ? 0.4 : 0.15)
 
   const renderedProjects = projects.map((project, i) => {
     return (
