@@ -62,6 +62,8 @@ import Jeux from '@/public/Jeux.png'
 import Nouilles from '@/public/Nouilles.png'
 import Tennis from '@/public/Tennis.png'
 import Theatre from '@/public/Theatre.png'
+import ESSP from '@/public/ESSP.png'
+import IRAP from '@/public/IRAP.png'
 
 export const links = [
   {
@@ -74,7 +76,7 @@ export const links = [
   },
   {
     hash: '#skills',
-    label: 'Compétences et projets',
+    label: 'Compétences',
   },
   {
     hash: '#projects',
@@ -171,22 +173,6 @@ export const skills = [
     image: css,
   },
   {
-    name: 'Node.js',
-    image: node,
-  },
-  {
-    name: 'Express.js',
-    image: express,
-  },
-  {
-    name: 'Flask',
-    image: flask,
-  },
-  {
-    name: 'Prisma',
-    image: prisma,
-  },
-  {
     name: 'MongoDB',
     image: mongodb,
   },
@@ -197,22 +183,6 @@ export const skills = [
   {
     name: 'React',
     image: react,
-  },
-  {
-    name: 'Next.js',
-    image: next,
-  },
-  {
-    name: 'Tailwind',
-    image: tailwind,
-  },
-  {
-    name: 'Pandas',
-    image: pandas,
-  },
-  {
-    name: 'Scikit-learn',
-    image: scikit,
   },
   {
     name: 'Git',
@@ -391,39 +361,23 @@ export const projects = [
 
 export const experiences = [
   {
-    title: 'Operations Manager',
-    subtitle: 'AMC Theatres',
-    image: amc,
-    dates: 'Mar. 2022 - Aug. 2022',
+    title: 'Développeuse logiciel (Stage)',
+    subtitle: 'IRAP',
+    link: 'https://www.irap.omp.eu',
+    image: IRAP,
+    dates: 'Février - Avril 2023',
     description:
-      'Managed HR functions such as recruiting, payroll, training, and optimizing team schedules to save $10K+ quarterly',
+      'Développement d\'un module Python pour créer des bases de données astrophysiques spectroscopiques et collisionnelles.',
   },
   {
-    title: 'Software Engineer',
-    subtitle: 'Cinefind',
-    link: 'https://cinefind.app',
-    image: cinefindLogo,
-    dates: 'Jun. 2024 - present',
+    title: 'Développeuse web',
+    subtitle: 'ESSP',
+    link: 'https://www.essp-sas.eu',
+    image: ESSP,
+    dates: 'Août 2024 - En cours',
     description:
-      'Led a complete overhaul of the company website using Next.js, boosting performance by 55% and SEO rankings by 33%. Designed and optimized MongoDB database models with Prisma, improving query efficiency by 20% and reducing storage usage by 25%, while implementing secure user authentication',
-  },
-  {
-    title: 'Basketball Instructor',
-    subtitle: 'Lifetime Activities',
-    image: lifetime,
-    dates: 'Jul. 2024 - present',
-    description:
-      'Orchestrated basketball skills programs for children and teens, achieving 25% enrollment growth per eight weeks',
-  },
-  {
-    title: 'B.S. Software Engineering',
-    subtitle: 'San Jose State University',
-    image: sjsu,
-    dates: 'Dec. 2025 (expected)',
-    description:
-      'Led diverse teams on various software development projects, utilizing SDLC methodologies to deliver high-quality solutions',
-    gpa: 3.7,
-  },
+    'Développement d\'une nouvelle interface web pour un outil existant et mise à jour de la version de la base de données suite à la nouvelle politique de sécurité.',
+  }
 ]
 
 export const footerLinks = [

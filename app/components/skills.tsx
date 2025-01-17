@@ -5,7 +5,7 @@ import IconCard from './ui/icon-card'
 import { motion } from 'framer-motion'
 
 export default function Skills() {
-  const { ref } = useSectionInView('Compétences et projets', 0.75)
+  const { ref } = useSectionInView('Compétences', 0.75)
 
   const renderedSkills = skills.map((skill, i) => {
     return (
@@ -27,7 +27,7 @@ export default function Skills() {
       id="skills"
       className="scroll-mt-24"
     >
-      <Header>Top Skills</Header>
+      <Header>Compétences techniques</Header>
       <ul className="grid lg:grid-cols-10 md:grid-cols-5 grid-cols-4 gap-2">
         {renderedSkills}
       </ul>
