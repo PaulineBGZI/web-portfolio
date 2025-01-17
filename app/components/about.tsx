@@ -66,7 +66,7 @@ export default function About() {
           >
             l&apos;ESSP
           </Link>{' '}
-          pour le développement d'une nouvelle interface web.
+          pour le développement d&apos;une nouvelle interface web.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, x: 25 }}
@@ -89,7 +89,7 @@ export default function About() {
         viewport={{ once: true }}
         className="text-2xl font-semibold tracking-wider text-gray-400 mb-4"
       >
-        Interests
+        Centres d&apos;intérêt
       </motion.h2>
       <ul className="grid lg:grid-cols-8 grid-cols-4 gap-2">
         {renderedInterests}
