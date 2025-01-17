@@ -30,7 +30,7 @@ export default function About() {
       ref={ref}
       className="scroll-mt-24"
     >
-      <Header>About Me</Header>
+      <Header>A propos de moi</Header>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-12 mb-8">
         <motion.p
           initial={{ opacity: 0, x: -25 }}
@@ -39,40 +39,34 @@ export default function About() {
           viewport={{ once: true }}
           className="text-gray-400 text-lg"
         >
-          Hello! My name is Alex and I love designing and building applications
-          that solve real-world problems, which is on display in my{' '}
+          Passionnée par le développement web, je me forme pour devenir 
+          développeuse front-end et back-end, avec l'ambition de créer 
+          des {' '}
           <Link
             href="/#projects"
             className="hover:text-sjsu-gold transition-colors font-semibold"
           >
-            projects{' '}
+            expériences numériques{' '}
           </Link>
-          and{' '}
+          à la fois innovantes et accessibles.
+          <br />
+          <br />
+          Après l’obtention de mon BUT Informatique, je souhaite poursuivre 
+          mes études dans le domaine du développement web afin d’acquérir 
+          de nouvelles compétences et approfondir mon apprentissage.
+          J’ai un intérêt particulier pour les technologies front-end et 
+          l’amélioration de l’expérience utilisateur.
+          <br />
+          <br />
+          Actuellement, je suis développeuse web en alternance à {' '}
           <Link
-            href="/#experience"
-            className="hover:text-sjsu-gold transition-colors font-semibold"
-          >
-            {' '}
-            work experience
-          </Link>
-          .
-          <br />
-          <br />
-          I specialize in full-stack application development and deliver machine
-          learning solutions while continuously learning and new and emerging
-          technologies.
-          <br />
-          <br />
-          Currently, I am working as a Software Engineer at{' '}
-          <Link
-            href={'https://cinefind.app/'}
+            href={'https://www.essp-sas.eu'}
             target="_blank"
             className="hover:text-sjsu-gold transition-colors font-semibold"
           >
-            Cinefind
+            l'ESSP
           </Link>{' '}
-          connecting audiences across the country with free local movie
-          screenings.
+          pour le développement d'une nouvelle interface web.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, x: 25 }}
@@ -83,7 +77,7 @@ export default function About() {
         >
           <Image
             src={profilePic}
-            alt="Alex Ross"
+            alt="Pauline Benghouzi"
             className="rounded-xl shadow-xl shadow-slate-900 lg:h-72 h-56 w-auto brightness-90"
           />
         </motion.div>
