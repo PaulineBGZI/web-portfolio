@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="flex gap-4 justify-center items-center mb-4">
         {renderedLinks}
       </div>
-      {new Date().getFullYear()} © Alex Ross
+      {new Date().getFullYear()} © Pauline Benghouzi
     </footer>
   )
 }
