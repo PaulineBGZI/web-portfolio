@@ -57,6 +57,11 @@ import scikit from '@/public/scikit.png'
 import pandas from '@/public/pandas.png'
 import shap from '@/public/shap.png'
 import twitterBot from '@/public/twitter-bot.png'
+import Cinema from '@/public/Cinema.png'
+import Jeux from '@/public/Jeux.png'
+import Nouilles from '@/public/Nouilles.png'
+import Tennis from '@/public/Tennis.png'
+import Theatre from '@/public/Theatre.png'
 
 export const links = [
   {
@@ -104,47 +109,31 @@ export const socials = [
 ] as const
 
 export const interests = [
+  
   {
-    name: 'Basketball',
-    image: warriors,
+    name: 'Culture Japonaise',
+    image: Nouilles,
   },
+  
   {
-    name: 'Soccer',
-    image: villa,
+    name: 'Jeux en ligne',
+    image: Jeux,
   },
-  {
-    name: 'Baseball',
-    image: giants,
-  },
-  // {
-  //   name: 'Football',
-  //   image: niners,
-  // },
+
   {
     name: 'Tennis',
     icon: PiTennisBallFill,
   },
+
   {
-    name: 'Fitness',
-    icon: FaDumbbell,
+    name: 'Cinéma',
+    image: Cinema,
   },
   {
-    name: 'Movies',
-    image: boxd,
-    href: 'https://letterboxd.com/aross2010/',
+    name: 'Théâtre',
+    image: Theatre,
   },
-  {
-    name: 'Music',
-    image: atcq,
-  },
-  {
-    name: 'Reading',
-    icon: FaBookOpen,
-  },
-  // {
-  //   name: 'Traveling',
-  //   icon: FaPlaneDeparture,
-  // },
+
 ] as const
 
 export const skills = [
