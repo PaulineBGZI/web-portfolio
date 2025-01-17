@@ -255,19 +255,19 @@
   resolved "https://registry.npmjs.org/@react-email/preview/-/preview-0.0.11.tgz"
   integrity sha512-7O/CT4b16YlSGrj18htTPx3Vbhu2suCGv/cSe5c+fuSrIM/nMiBSZ3Js16Vj0XJbAmmmlVmYFZw9L20wXJ+LjQ==
 
-"@react-email/render@0.0.17":
-  version "0.0.17"
-  resolved "https://registry.npmjs.org/@react-email/render/-/render-0.0.17.tgz"
-  integrity sha512-xBQ+/73+WsGuXKY7r1U73zMBNV28xdV0cp9cFjhNYipBReDHhV97IpA6v7Hl0dDtDzt+yS/72dY5vYXrF1v8NA==
+"@react-email/render@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@react-email/render/-/render-1.0.0.tgz"
+  integrity sha512-seN2p3JRUSZhwIUiymh9N6ZfhRZ14ywOraQqAokY63DkDeHZW2pA2a6nWpNc/igfOcNyt09Wsoi1Aj0esxhdzw==
   dependencies:
     html-to-text "9.0.5"
     js-beautify "^1.14.11"
     react-promise-suspense "0.3.4"
 
-"@react-email/render@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@react-email/render/-/render-1.0.0.tgz"
-  integrity sha512-seN2p3JRUSZhwIUiymh9N6ZfhRZ14ywOraQqAokY63DkDeHZW2pA2a6nWpNc/igfOcNyt09Wsoi1Aj0esxhdzw==
+"@react-email/render@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@react-email/render/-/render-1.0.1.tgz"
+  integrity sha512-W3gTrcmLOVYnG80QuUp22ReIT/xfLsVJ+n7ghSlG2BITB8evNABn1AO2rGQoXuK84zKtDAlxCdm3hRyIpZdGSA==
   dependencies:
     html-to-text "9.0.5"
     js-beautify "^1.14.11"
@@ -2487,12 +2487,12 @@ regexp.prototype.flags@^1.5.1, regexp.prototype.flags@^1.5.2:
     es-errors "^1.3.0"
     set-function-name "^2.0.1"
 
-resend@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/resend/-/resend-4.0.0.tgz"
-  integrity sha512-rDX0rspl/XcmC2JV2V5obQvRX2arzxXUvNFUDMOv5ObBLR68+7kigCOysb7+dlkb0JE3erhQG0nHrbBt/ZCWIg==
+resend@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/resend/-/resend-4.1.1.tgz"
+  integrity sha512-nkcRpIOgPb3sFPA/GyOTr6Vmlrkhwsu+XlC20kKbbebOfw0WbAjbBbJ1m4AcjKOkPf57O4DH9Bnbxi9i18JYng==
   dependencies:
-    "@react-email/render" "0.0.17"
+    "@react-email/render" "1.0.1"
 
 resize-observer-polyfill@1.5.0:
   version "1.5.0"
