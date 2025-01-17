@@ -51,7 +51,7 @@ export default function Intro() {
         viewport={{ once: true }}
         className="text-gray-400 text-lg mb-8 lg:w-[50%] md:w-[65%]"
       >
-        Je m'appelle Pauline, étudiante à l'IUT de Blagnac, où je prépare
+        Je m&apos;appelle Pauline, étudiante à l&apos;IUT de Blagnac, où je prépare
         un Bachelor Universitaire de Technologie.
       </motion.p>
       <motion.div

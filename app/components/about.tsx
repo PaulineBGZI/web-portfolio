@@ -40,7 +40,7 @@ export default function About() {
           className="text-gray-400 text-lg"
         >
           Passionnée par le développement web, je me forme pour devenir 
-          développeuse front-end et back-end, avec l'ambition de créer 
+          développeuse front-end et back-end, avec l&apos;ambition de créer 
           des {' '}
           <Link
             href="/#projects"
@@ -51,11 +51,11 @@ export default function About() {
           à la fois innovantes et accessibles.
           <br />
           <br />
-          Après l’obtention de mon BUT Informatique, je souhaite poursuivre 
-          mes études dans le domaine du développement web afin d’acquérir 
+          Après l&apos;obtention de mon BUT Informatique, je souhaite poursuivre 
+          mes études dans le domaine du développement web afin d&apos;acquérir 
           de nouvelles compétences et approfondir mon apprentissage.
-          J’ai un intérêt particulier pour les technologies front-end et 
-          l’amélioration de l’expérience utilisateur.
+          J&apos;ai un intérêt particulier pour les technologies front-end et 
+          l&apos;amélioration de l&apos;expérience utilisateur.
           <br />
           <br />
           Actuellement, je suis développeuse web en alternance à {' '}
@@ -64,7 +64,7 @@ export default function About() {
             target="_blank"
             className="hover:text-sjsu-gold transition-colors font-semibold"
           >
-            l'ESSP
+            l&apos;ESSP
           </Link>{' '}
           pour le développement d'une nouvelle interface web.
         </motion.p>
