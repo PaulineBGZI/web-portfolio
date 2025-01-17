@@ -22,7 +22,7 @@ export default function Contact() {
         animateOpacity
         className="text-center"
       >
-        Contact Me!
+        Me Contacter
       </Header>
       <motion.div
         initial={{ opacity: 0 }}
@@ -31,8 +31,8 @@ export default function Contact() {
         transition={{ duration: 0.4, delay: 0.5 }}
       >
         <p className="text-center lg:px-48 md:px-32 sm:px-12 text-lg text-gray-400">
-          Thank you for checking out my website! If you have any questions or
-          would like to get in touch, feel free to reach out to me.
+        Merci d'avoir consulté mon site web ! Si vous avez des questions ou
+        ou si vous souhaitez entrer en contact avec moi, n'hésitez pas à me contacter.
         </p>
         <form
           id="contact-form"
@@ -58,7 +58,7 @@ export default function Contact() {
               max={100}
             />
             <TextInput
-              placeholder="Subject"
+              placeholder="Sujet"
               name="subject"
               required
               min={3}

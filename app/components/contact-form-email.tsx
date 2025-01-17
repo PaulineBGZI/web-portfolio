@@ -26,18 +26,18 @@ export default function ContactFormEmail({
   return (
     <Html>
       <Head />
-      <Preview>New message for Portfolio</Preview>
+      <Preview>Nouveau message Portfolio</Preview>
       <Tailwind>
         <Body>
           <Container>
             <Section className="p-4">
               <Heading className="leading-tight">
-                You received an email from your portfolio!
+                Tu as reçu un mail de ton portfolio !
               </Heading>
-              <Text>Subject - {subject}</Text>
+              <Text>Sujet - {subject}</Text>
               <Text>{message}</Text>
               <Hr />
-              <Text>From - {email}</Text>
+              <Text>De - {email}</Text>
             </Section>
           </Container>
         </Body>

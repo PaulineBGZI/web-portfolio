@@ -13,7 +13,7 @@ export const sendEmail = async (formData: FormData) => {
 
   if (message.length > 5000) {
     return {
-      error: 'Message is too long',
+      error: 'Votre message est trop long',
     }
   }
 
@@ -21,7 +21,7 @@ export const sendEmail = async (formData: FormData) => {
   try {
     data = await resend.emails.send({
       from: `Contact Form <onboarding@resend.dev>`,
-      to: 'adross1027@gmail.com',
+      to: 'pauline.benghouzi@gmail.com',
       subject: 'Portfolio Message',
       replyTo: email,
       react: React.createElement(ContactFormEmail, {
@@ -32,7 +32,7 @@ export const sendEmail = async (formData: FormData) => {
     })
   } catch (e: unknown) {
     return {
-      error: 'Failed to send email',
+      error: 'Echec de l\'envoi de l\'email',
     }
   }
 
