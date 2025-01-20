@@ -1,4 +1,4 @@
-import { skills } from '../lib/data'
+import { skills, softskills } from '../lib/data'
 import { useSectionInView, useWindowSizeHook } from '../lib/hooks'
 import Header from './ui/header'
 import IconCard from './ui/icon-card'
@@ -15,6 +15,20 @@ export default function Skills() {
   const { ref } = useSectionInView('Compétences et projets', threshold)
 
   const renderedSkills = skills.map((skill, i) => {
+    return (
+      <motion.li
+        initial={{ opacity: 0, y: 25 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.4, delay: i * 0.05 + 0.5 }}
+        viewport={{ once: true }}
+        key={skill.name}
+      >
+        <IconCard {...skill} />
+      </motion.li>
+    )
+  })
+
+  const SoftSkills = softskills.map((skill, i) => {
     return (
       <motion.li
         initial={{ opacity: 0, y: 25 }}
@@ -63,6 +77,12 @@ export default function Skills() {
       <ul className="grid lg:grid-cols-10 md:grid-cols-5 grid-cols-4 gap-2">
         {renderedSkills}
       </ul> <br></br> <br></br>
+
+      <Header>Savoir-être</Header>
+      <ul className="grid lg:grid-cols-10 md:grid-cols-5 grid-cols-4 gap-2">
+        {SoftSkills}
+      </ul> <br></br> <br></br>
+
       <Header>Projets</Header>
       <ul className="grid md:grid-cols-2 grid-cols-1 gap-4 md:auto-rows-fr">
         {renderedProjects}

@@ -23,7 +23,7 @@ export default function SubmitButton({
     >
       {pending ? (
         <Fragment>
-          Submitting...
+          Envoi en cours...
           <AiOutlineLoading className="animate-spin text-xl" />
         </Fragment>
       ) : (

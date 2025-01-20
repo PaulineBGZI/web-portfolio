@@ -73,7 +73,7 @@ export default function Contact() {
             maxLength={5000}
           />
           <SubmitButton className="group">
-            Send Message{' '}
+            Envoyer{' '}
             <FaPaperPlane className="group-hover:translate-x-1 group-hover:transform group-hover:-translate-y-1 transition-transform" />
           </SubmitButton>
         </form>

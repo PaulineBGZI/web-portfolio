@@ -40,7 +40,7 @@ export default function About() {
           className="text-gray-400 text-lg"
         >
           Passionnée par le développement web, je me forme pour devenir 
-          développeuse front-end et back-end, avec l&apos;ambition de créer 
+          développeuse full stack, avec l&apos;ambition de créer 
           des {' '}
           <Link
             href="/#skills"
@@ -66,7 +66,7 @@ export default function About() {
           >
             l&apos;ESSP
           </Link>{' '}
-          pour le développement d&apos;une nouvelle interface web.
+          pour le développement d&apos;une nouvelle interface utilisateur.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, x: 25 }}

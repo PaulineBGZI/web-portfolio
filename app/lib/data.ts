@@ -8,10 +8,6 @@ import html from '@/public/html.png'
 import css from '@/public/css.png'
 import typescript from '@/public/typescript.png'
 import react from '@/public/react.png'
-import next from '@/public/next.png'
-import tailwind from '@/public/tailwind.png'
-import node from '@/public/node.png'
-import express from '@/public/express.png'
 import mongodb from '@/public/mongo.png'
 import javascript from '@/public/javascript.png'
 import c from '@/public/c.png'
@@ -20,11 +16,6 @@ import python from '@/public/python.png'
 import git from '@/public/git.png'
 import mysql from '@/public/mysql.png'
 import sql from '@/public/sql.png'
-import prisma from '@/public/prisma.png'
-import vercel from '@/public/vercel.png'
-import split from '@/public/split.png'
-import cinefindPersonal from '@/public/cinefind_me.png'
-import tmdb from '@/public/tmdb.png'
 import Cinema from '@/public/Cinema.png'
 import Jeux from '@/public/Jeux.png'
 import Nouilles from '@/public/Nouilles.png'
@@ -36,6 +27,10 @@ import recits from '@/public/recits.png'
 import banque from '@/public/appli-bancaire.png'
 import site from '@/public/site-web.png'
 import bd from '@/public/BD.png'
+import com from '@/public/com.png'
+import agile from '@/public/agile.png'
+import equipe from '@/public/equipe.png'
+import projets from '@/public/projets.png'
 
 export const links = [
   {
@@ -52,7 +47,7 @@ export const links = [
   },
   {
     hash: '#experience',
-    label: 'Expérience',
+    label: 'Expériences',
   },
   {
     hash: '#contact',
@@ -162,6 +157,25 @@ export const skills = [
   },
 ] as const
 
+export const softskills = [
+  {
+    name: 'Communication professionnelle',
+    image: com,
+  },
+  {
+    name: 'Méthodes agiles',
+    image: agile,
+  },
+    {
+    name: 'Travail en équipe',
+    image: equipe,
+  },
+  {
+    name: 'Présentation de projets',
+    image: projets,
+  },
+] as const
+
 export const projects = [
   {
     name: 'Amélioration d\'un site web existant',
@@ -252,7 +266,7 @@ export const experiences = [
       'Développement d\'un module Python pour créer des bases de données astrophysiques spectroscopiques et collisionnelles.',
   },
   {
-    title: 'Développeuse web',
+    title: 'Développeuse web (Alternance)',
     subtitle: 'ESSP',
     link: 'https://www.essp-sas.eu',
     image: ESSP,
