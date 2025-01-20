@@ -91,7 +91,7 @@ export default function About() {
       >
         Centres d&apos;intérêt
       </motion.h2>
-      <ul className="grid lg:grid-cols-8 grid-cols-4 gap-2">
+      <ul className="grid lg:grid-cols-7 grid-cols-4 gap-2">
         {renderedInterests}
       </ul>
     </section>

@@ -79,7 +79,7 @@ export default function Skills() {
       </ul> <br></br> <br></br>
 
       <Header>Savoir-être</Header>
-      <ul className="grid lg:grid-cols-10 md:grid-cols-5 grid-cols-4 gap-2">
+      <ul className="grid lg:grid-cols-4 md:grid-cols-5 grid-cols-4 gap-3">
         {SoftSkills}
       </ul> <br></br> <br></br>
 
