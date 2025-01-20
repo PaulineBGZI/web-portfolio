@@ -54,7 +54,8 @@ export default function Navbar() {
               : 'hover:bg-slate-700 hover:text-white'
           } sm:text-sm text-xs md:text-base`}
         >
-          {shortLabel}
+          <span className="md:hidden">{shortLabel}</span>
+          <span className="hidden md:inline">{label}</span>
           {label === activeSection && (
             <motion.span
               className="bg-sjsu-gold rounded-full absolute inset-0 -z-10"
