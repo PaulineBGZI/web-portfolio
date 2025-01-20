@@ -10,7 +10,7 @@ type ProjectProps = {
 }
 
 export default function Project({ project }: ProjectProps) {
-  const { name, image, description, tech, link, code } = project
+  const { name, image, description, tech, link } = project
   return (
     <div className="rounded-lg bg-slate-700 flex flex-col min-h-full flex-grow">
       <Image
@@ -46,16 +46,10 @@ export default function Project({ project }: ProjectProps) {
               href={link}
               className="w-full !py-2"
             >
-              Website <FaExternalLinkAlt />
+              Site web <FaExternalLinkAlt />
             </Button>
           )}
 
-          <Button
-            href={code}
-            className="w-full !py-2"
-          >
-            Code <FaGithub />
-          </Button>
         </div>
       </div>
     </div>

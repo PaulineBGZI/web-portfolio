@@ -6,7 +6,6 @@ import {
 import { PiTennisBallFill } from 'react-icons/pi'
 import html from '@/public/html.png'
 import css from '@/public/css.png'
-import flask from '@/public/flask.png'
 import typescript from '@/public/typescript.png'
 import react from '@/public/react.png'
 import next from '@/public/next.png'
@@ -19,34 +18,24 @@ import c from '@/public/c.png'
 import java from '@/public/java.png'
 import python from '@/public/python.png'
 import git from '@/public/git.png'
-import maria from '@/public/maria.png'
 import mysql from '@/public/mysql.png'
-import vscode from '@/public/vscode.png'
 import sql from '@/public/sql.png'
 import prisma from '@/public/prisma.png'
 import vercel from '@/public/vercel.png'
 import split from '@/public/split.png'
-import spotlefy from '@/public/spotlefy.png'
-import spotify from '@/public/spotify.png'
 import cinefindPersonal from '@/public/cinefind_me.png'
 import tmdb from '@/public/tmdb.png'
-import jinja from '@/public/jinja.png'
-import cron from '@/public/cron.png'
-import reddit from '@/public/reddit.png'
-import discogs from '@/public/discogs.png'
-import rpi from '@/public/rpi.png'
-import vinylBot from '@/public/vinyl-bot.png'
-import scikit from '@/public/scikit.png'
-import pandas from '@/public/pandas.png'
-import twitterBot from '@/public/twitter-bot.png'
 import Cinema from '@/public/Cinema.png'
 import Jeux from '@/public/Jeux.png'
 import Nouilles from '@/public/Nouilles.png'
-import Tennis from '@/public/Tennis.png'
 import Theatre from '@/public/Theatre.png'
 import ESSP from '@/public/ESSP.png'
 import IRAP from '@/public/IRAP.png'
 import php from '@/public/php.png'
+import recits from '@/public/recits.png'
+import banque from '@/public/appli-bancaire.png'
+import site from '@/public/site-web.png'
+import bd from '@/public/BD.png'
 
 export const links = [
   {
@@ -176,9 +165,9 @@ export const skills = [
 export const projects = [
   {
     name: 'Amélioration d\'un site web existant',
-    image: twitterBot,
+    image: recits,
     description:
-      'As the ML engineer of this project, I developed a model to classify Twitter accounts as bots or humans, utilizing advanced data preprocessing, feature selection, and predictive analysis for high accuracy',
+      'Ce projet a consisté à améliorer un site web existant en optimisant son design et en ajoutant de nouvelles fonctionnalités.',
     tech: [
       {
         src: php,
@@ -194,147 +183,61 @@ export const projects = [
       },
     ],
     link: null,
-    code: 'https://github.com/aross2010/twitter-bot-detector',
   },
   {
-    name: 'Vinyl Bot',
-    image: vinylBot,
+    name: 'Développement d\' une application bancaire',
+    image: banque,
     description:
-      'A set of automated Python scripts that deliver real-time email notifications for desired vinyl record releases, seamlessly integrating with Discogs to track records from your wantlist.',
+      'Ce projet a consisté à développer une application bancaire permettant de gérer les comptes et les clients, ainsi que les opérations bancaires.',
     tech: [
       {
-        src: python,
-        alt: 'python',
-      },
-      {
-        src: jinja,
-        alt: 'jinja',
-      },
-      {
-        src: rpi,
-        alt: 'rpi',
-      },
-      {
-        src: cron,
-        alt: 'cron',
-      },
-      {
-        src: discogs,
-        alt: 'discogs',
-      },
-      {
-        src: reddit,
-        alt: 'reddit',
+        src: java,
+        alt: 'java',
       },
     ],
     link: null,
-    code: 'https://github.com/aross2010/vinyl-bot',
   },
   {
-    name: 'Spotlefy',
-    image: spotlefy,
+    name: 'Création d\' un site web pour une entreprise fictive',
+    image: site,
     description:
-      'A web application that intergrates the Spotify API to allow users to create and customize their own Heardle games.',
+      'Ce projet a consisté à créer un site web pour une entreprise fictive. Nous avons conçu et développé l\'ensemble du site, en veillant à ce qu\'il soit à la fois esthétique et fonctionnel.',
     tech: [
       {
-        src: typescript,
-        alt: 'typescript',
+        src: html,
+        alt: 'html',
       },
       {
-        src: react,
-        alt: 'react',
+        src: css,
+        alt: 'css',
       },
       {
-        src: next,
-        alt: 'next',
+        src: php,
+        alt: 'php',
       },
       {
-        src: tailwind,
-        alt: 'tailwind',
+        src: sql,
+        alt: 'sql',
       },
-      {
-        src: vercel,
-        alt: 'vercel',
-      },
-      {
-        src: spotify,
-        alt: 'spotify',
-      },
-    ],
-    link: 'https://spotlefy.vercel.app/',
-    code: 'https://github.com/aross2010/spotlefy',
-  },
-  {
-    name: 'Split',
-    image: split,
-    description:
-      'A full-stack web application for users to log workouts and track progress through dynamic data visualizations.',
-    tech: [
-      {
-        src: typescript,
-        alt: 'typescript',
-      },
-      {
-        src: react,
-        alt: 'react',
-      },
-      {
-        src: next,
-        alt: 'next',
-      },
-      {
-        src: tailwind,
-        alt: 'tailwind',
-      },
-      {
-        src: mongodb,
-        alt: 'mongodb',
-      },
-      {
-        src: prisma,
-        alt: 'prisma',
-      },
-      {
-        src: vercel,
-        alt: 'vercel',
-      },
-    ],
-    link: 'https://splitv1.vercel.app/',
-    code: 'https://github.com/aross2010/split',
-  },
-  {
-    name: 'CineFind (Personal)',
-    image: cinefindPersonal,
-    description:
-      'A web application that allows users to find films catering to their needs, leave reviews and discussion posts, create lists, and play the CineQ movie guessing game.',
-    tech: [
       {
         src: javascript,
         alt: 'javascript',
       },
+    ],
+    link: null,
+  },
+  {
+    name: 'Création et gestion d\' une base de données',
+    image: bd,
+    description:
+      'Ce projet a consisté à créer et gérer une base de données pour la gestion des ventes de véhicules, en veillant à ce qu\'elle soit à la fois fonctionnelle et efficace.',
+    tech: [
       {
-        src: react,
-        alt: 'react',
-      },
-      {
-        src: node,
-        alt: 'node',
-      },
-      {
-        src: express,
-        alt: 'express',
-      },
-      {
-        src: vercel,
-        alt: 'vercel',
-      },
-      {
-        src: tmdb,
-        alt: 'tmdb',
+        src: sql,
+        alt: 'sql',
       },
     ],
-    link: 'https://cinefind.vercel.app/',
-    code: 'https://github.com/aross2010/cinefind',
+    link: null,
   },
 ]
 
