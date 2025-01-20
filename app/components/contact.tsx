@@ -32,7 +32,7 @@ export default function Contact() {
       >
         <p className="text-center lg:px-48 md:px-32 sm:px-12 text-lg text-gray-400">
         Merci d&apos;avoir consulté mon site web ! Si vous avez des questions ou
-        ou si vous souhaitez entrer en contact avec moi, n&apos;hésitez pas à m'envoyer un message.
+        ou si vous souhaitez entrer en contact avec moi, n&apos;hésitez pas à m&apos;envoyer un message.
         </p>
         <form
           id="contact-form"
