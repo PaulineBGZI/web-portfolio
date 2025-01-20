@@ -46,6 +46,7 @@ import Tennis from '@/public/Tennis.png'
 import Theatre from '@/public/Theatre.png'
 import ESSP from '@/public/ESSP.png'
 import IRAP from '@/public/IRAP.png'
+import php from '@/public/php.png'
 
 export const links = [
   {
@@ -143,6 +144,10 @@ export const skills = [
     image: sql,
   },
   {
+    name: 'PHP',
+    image: php,
+  },
+  {
     name: 'HTML',
     image: html,
   },
@@ -176,20 +181,16 @@ export const projects = [
       'As the ML engineer of this project, I developed a model to classify Twitter accounts as bots or humans, utilizing advanced data preprocessing, feature selection, and predictive analysis for high accuracy',
     tech: [
       {
-        src: python,
-        alt: 'python',
+        src: php,
+        alt: 'php',
       },
       {
-        src: flask,
-        alt: 'flask',
+        src: html,
+        alt: 'html',
       },
       {
-        src: scikit,
-        alt: 'scikit',
-      },
-      {
-        src: pandas,
-        alt: 'pandas',
+        src: css,
+        alt: 'css',
       },
     ],
     link: null,
