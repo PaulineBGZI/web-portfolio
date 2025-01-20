@@ -11,11 +11,7 @@ import { Fragment } from 'react'
 
 export default function Skills() {
   const width = useWindowSizeHook()
-  console.log('Window width:', width) // Ajout du console.log pour vérifier la largeur de la fenêtre
-
-  const threshold = width > 700 ? 0.2 : 0.1 // Ajustez les valeurs de seuil ici
-  console.log('Threshold value:', threshold) // Ajout du console.log pour vérifier la valeur du seuil
-
+  const threshold = width > 700 ? 0.2 : 0.1
   const { ref } = useSectionInView('Compétences et projets', threshold)
 
   const renderedSkills = skills.map((skill, i) => {

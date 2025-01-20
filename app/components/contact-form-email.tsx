@@ -32,7 +32,7 @@ export default function ContactFormEmail({
           <Container>
             <Section className="p-4">
               <Heading className="leading-tight">
-                Tu as reçu un mail de ton portfolio !
+                Tu as reçu un message venant de ton portfolio !
               </Heading>
               <Text>Sujet - {subject}</Text>
               <Text>{message}</Text>

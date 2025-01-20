@@ -32,7 +32,7 @@ export default function Contact() {
       >
         <p className="text-center lg:px-48 md:px-32 sm:px-12 text-lg text-gray-400">
         Merci d&apos;avoir consulté mon site web ! Si vous avez des questions ou
-        ou si vous souhaitez entrer en contact avec moi, n&apos;hésitez pas à me contacter.
+        ou si vous souhaitez entrer en contact avec moi, n&apos;hésitez pas à m'envoyer un message.
         </p>
         <form
           id="contact-form"
@@ -46,7 +46,7 @@ export default function Contact() {
               'contact-form'
             ) as HTMLFormElement
             form.reset()
-            toast.success('Message sent. Thanks for reaching out!')
+            toast.success('Votre message a été envoyé !')
           }}
         >
           <div className="grid grid-cols-2 gap-4 mb-6">
