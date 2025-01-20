@@ -11,9 +11,8 @@ type Label = 'Accueil' | 'A Propos' | 'Compétences et projets' | 'Expériences'
 
 // Mapping for abbreviations
 const labelAbbreviations: { [key in Label]?: string } = {
-  'A Propos': 'À Propos',
+  'A Propos': 'Infos',
   'Compétences et projets': 'Compétences',
-  // Add other mappings if needed
 }
 
 export default function Navbar() {

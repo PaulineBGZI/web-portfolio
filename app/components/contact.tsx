@@ -31,8 +31,10 @@ export default function Contact() {
         transition={{ duration: 0.4, delay: 0.5 }}
       >
         <p className="text-center lg:px-48 md:px-32 sm:px-12 text-lg text-gray-400">
-        Merci d&apos;avoir consulté mon site web ! Si vous avez des questions 
-        ou si vous souhaitez me contacter, n&apos;hésitez pas à m&apos;envoyer un message.
+        Merci d&apos;avoir consulté mon site web !</p>
+        <p className="text-center lg:px-48 md:px-32 sm:px-12 text-lg text-gray-400">
+        Si vous avez des questions ou si vous souhaitez me contacter, n&apos;hésitez pas 
+        à m&apos;envoyer un message.
         </p>
         <form
           id="contact-form"
