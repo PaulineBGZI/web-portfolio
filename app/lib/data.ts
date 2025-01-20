@@ -257,15 +257,6 @@ export const projects = [
 
 export const experiences = [
   {
-    title: 'Développeuse logiciel (Stage)',
-    subtitle: 'IRAP',
-    link: 'https://www.irap.omp.eu',
-    image: IRAP,
-    dates: 'Février - Avril 2023',
-    description:
-      'Développement d\'un module Python pour créer des bases de données astrophysiques spectroscopiques et collisionnelles.',
-  },
-  {
     title: 'Développeuse web (Alternance)',
     subtitle: 'ESSP',
     link: 'https://www.essp-sas.eu',
@@ -273,6 +264,15 @@ export const experiences = [
     dates: 'Août 2024 - En cours',
     description:
     'Développement d\'une nouvelle interface web pour un outil existant et mise à jour de la version de la base de données suite à la nouvelle politique de sécurité.',
+  },
+  {
+    title: 'Développeuse logiciel (Stage)',
+    subtitle: 'IRAP',
+    link: 'https://www.irap.omp.eu',
+    image: IRAP,
+    dates: 'Février - Avril 2023',
+    description:
+      'Développement d\'un module Python pour créer des bases de données astrophysiques spectroscopiques et collisionnelles.',
   }
 ]
 

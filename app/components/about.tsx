@@ -39,7 +39,7 @@ export default function About() {
           viewport={{ once: true }}
           className="text-gray-400 text-lg"
         >
-          Passionnée par le développement web, je me forme pour devenir 
+          Passionnée par le développement web, j&apos;ai l&apos;objectif de devenir 
           développeuse full stack, avec l&apos;ambition de créer 
           des {' '}
           <Link
