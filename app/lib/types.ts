@@ -10,7 +10,6 @@ export type ProjectType = {
     alt: string
   }[]
   link: string | null
-  code: string
 }
 
 export type TimelineElement = {
