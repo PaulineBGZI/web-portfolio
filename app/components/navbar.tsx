@@ -3,13 +3,24 @@ import { links } from '../lib/data'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { useActiveSectionContext } from '../context/section-context'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useWindowSizeHook } from '../lib/hooks'
+
+// Define a type for the labels
+type Label = 'Accueil' | 'A Propos' | 'Compétences et projets' | 'Expériences' | 'Contact'
+
+// Mapping for abbreviations
+const labelAbbreviations: { [key in Label]?: string } = {
+  'A Propos': 'À Propos',
+  'Compétences et projets': 'Compétences',
+  // Add other mappings if needed
+}
 
 export default function Navbar() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext()
   const width = useWindowSizeHook()
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   useEffect(() => {
     const linksContainer = document.getElementById('links-container')
@@ -25,6 +36,9 @@ export default function Navbar() {
   }, [activeSection, width])
 
   const renderedLinks = links.map(({ hash, label }) => {
+    // Use abbreviations for long labels on small screens
+    const shortLabel = labelAbbreviations[label as Label] || label
+
     return (
       <li key={hash}>
         <Link
@@ -33,14 +47,15 @@ export default function Navbar() {
           onClick={() => {
             setActiveSection(label)
             setTimeOfLastClick(Date.now())
+            setIsMenuOpen(false) // Close menu after clicking a link
           }}
-          className={`rounded-full outline-none relative transition-all text-gray-400 font-medium px-4 py-1.5 flex ${
+          className={`rounded-full outline-none relative transition-all text-gray-400 font-medium px-2 py-1 flex ${
             activeSection == label
               ? 'text-white font-medium'
               : 'hover:bg-slate-700 hover:text-white'
-          }`}
+          } sm:text-sm text-xs md:text-base`}
         >
-          {label}
+          {shortLabel}
           {label === activeSection && (
             <motion.span
               className="bg-sjsu-gold rounded-full absolute inset-0 -z-10"
@@ -65,9 +80,32 @@ export default function Navbar() {
       viewport={{ once: true }}
       className="md:rounded-full md:w-auto w-full max-w-full md:p-2 p-4 fixed md:top-6 top-0 left-1/2 outline-none transform -translate-x-1/2 sm:bg-slate-800/75 bg-slate-800/50 z-10 backdrop-blur-md"
     >
+      <div className="md:hidden flex justify-between items-center">
+        <button
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          className="text-white focus:outline-none"
+        >
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
+          </svg>
+        </button>
+      </div>
       <ul
         id="links-container"
-        className="flex overflow-x-auto scroll-hide items-center gap-2"
+        className={`flex md:overflow-x-auto scroll-hide items-center gap-2 ${
+          isMenuOpen ? 'flex' : 'hidden'
+        } md:flex`}
       >
         {renderedLinks}
       </ul>
