@@ -43,7 +43,7 @@ export default function About() {
           développeuse front-end et back-end, avec l&apos;ambition de créer 
           des {' '}
           <Link
-            href="/#projects"
+            href="/#skills"
             className="hover:text-sjsu-gold transition-colors font-semibold"
           >
             expériences numériques{' '}

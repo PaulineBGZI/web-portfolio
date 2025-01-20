@@ -1,10 +1,7 @@
 import {
   FaGithub,
   FaLinkedin,
-  FaDumbbell,
-  FaPlaneDeparture,
   FaEnvelope,
-  FaBookOpen,
 } from 'react-icons/fa6'
 import { PiTennisBallFill } from 'react-icons/pi'
 import html from '@/public/html.png'
@@ -25,14 +22,8 @@ import git from '@/public/git.png'
 import maria from '@/public/maria.png'
 import mysql from '@/public/mysql.png'
 import vscode from '@/public/vscode.png'
-import eclipse from '@/public/eclipse.png'
-import postman from '@/public/postman.png'
 import sql from '@/public/sql.png'
 import prisma from '@/public/prisma.png'
-import villa from '@/public/villa.png'
-import warriors from '@/public/warriors.png'
-import boxd from '@/public/boxd.png'
-import atcq from '@/public/atcq.png'
 import vercel from '@/public/vercel.png'
 import split from '@/public/split.png'
 import spotlefy from '@/public/spotlefy.png'
@@ -45,17 +36,8 @@ import reddit from '@/public/reddit.png'
 import discogs from '@/public/discogs.png'
 import rpi from '@/public/rpi.png'
 import vinylBot from '@/public/vinyl-bot.png'
-import temp from '@/public/temp.png'
-import giants from '@/public/giants.png'
-import amc from '@/public/amc.png'
-import lifetime from '@/public/lifetime.png'
-import sjsu from '@/public/sjsu.png'
-import cinefindLogo from '@/public/cinefind-logo.png'
-import figma from '@/public/figma.png'
-import niners from '@/public/49ers.png'
 import scikit from '@/public/scikit.png'
 import pandas from '@/public/pandas.png'
-import shap from '@/public/shap.png'
 import twitterBot from '@/public/twitter-bot.png'
 import Cinema from '@/public/Cinema.png'
 import Jeux from '@/public/Jeux.png'
@@ -76,11 +58,7 @@ export const links = [
   },
   {
     hash: '#skills',
-    label: 'Compétences',
-  },
-  {
-    hash: '#projects',
-    label: 'Projets',
+    label: 'Compétences et projets',
   },
   {
     hash: '#experience',
