@@ -181,7 +181,7 @@ export const projects = [
     name: 'Amélioration d\'un site web existant',
     image: recits,
     description:
-      'Ce projet a consisté à améliorer un site web existant en optimisant son design et en ajoutant de nouvelles fonctionnalités.',
+      'Ce projet a consisté à repenser et améliorer un site web existant en optimisant son design et en ajoutant de nouvelles fonctionnalités pour enrichir l\'expérience utilisateur.',
     tech: [
       {
         src: php,
@@ -202,7 +202,7 @@ export const projects = [
     name: 'Développement d\' une application bancaire',
     image: banque,
     description:
-      'Ce projet a consisté à développer une application bancaire permettant de gérer les comptes et les clients, ainsi que les opérations bancaires.',
+      'Ce projet a consisté à développer une application bancaire permettant de gérer les comptes et les clients ainsi que les opérations bancaires.',
     tech: [
       {
         src: java,
@@ -212,10 +212,10 @@ export const projects = [
     link: '#skills',
   },
   {
-    name: 'Création d\' un site web pour une entreprise fictive',
+    name: 'Création d\' un site web de vente de véhicules',
     image: site,
     description:
-      'Ce projet a consisté à créer un site web pour une entreprise fictive. Nous avons conçu et développé l\'ensemble du site, en veillant à ce qu\'il soit à la fois esthétique et fonctionnel.',
+      'Ce projet a consisté à créer un site web E-Commerce de vente de véhicules. Le site a été développé en veillant à ce qu\'il soit à la fois esthétique et fonctionnel.',
     tech: [
       {
         src: html,

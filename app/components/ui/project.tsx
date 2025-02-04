@@ -35,7 +35,7 @@ export default function Project({ project }: ProjectProps) {
             })}
           </ul>
         </div>
-        <p className="text-gray-400 font-medium mb-2">{description}</p>
+        <p className="text-gray-400 font-medium mb-2 text-justify">{description}</p>
         <div
           className={`grid ${
             link ? 'grid-cols-2' : 'grid-cols-1'
