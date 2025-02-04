@@ -46,7 +46,7 @@ export default function Project({ project }: ProjectProps) {
               href={link}
               className="w-full !py-2"
             >
-              Compétences <FaExternalLinkAlt />
+              Détails <FaExternalLinkAlt />
             </Button>
           )}
 
