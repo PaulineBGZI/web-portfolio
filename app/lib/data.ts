@@ -31,6 +31,8 @@ import com from '@/public/com.png'
 import agile from '@/public/agile.png'
 import equipe from '@/public/equipe.png'
 import projets from '@/public/projets.png'
+import blagnac from '@/public/blagnac.jpg'
+import lycee from '@/public/lycee.jpg'
 
 export const links = [
   {
@@ -280,20 +282,41 @@ export const experiences = [
   }
 ]
 
+export const formation = [
+  {
+    title: 'BUT Informatique',
+    subtitle: 'IUT de Blagnac',
+    link: 'https://www.iut-blagnac.fr',
+    image: blagnac,
+    dates: '2022 - 2025',
+    description:
+    'Bachelor Universitaire de Technologie en informatique.',
+  },
+  {
+    title: 'Baccalauréat Général',
+    subtitle: 'Lycée Françoise',
+    link: 'https://dissard-francoise.mon-ent-occitanie.fr',
+    image: lycee,
+    dates: '2019 - 2022',
+    description: 'Spécialités Mathématiques et LLCE anglais.\nMention assez bien.',
+  }
+  
+]
+
 export const footerLinks = [
   {
     name: 'LinkedIn',
     icon: FaLinkedin,
-    href: 'https://www.linkedin.com/in/alex-ross-32b278236/',
+    href: 'https://www.linkedin.com/in/pauline-benghouzi-00a047297/',
   },
   {
     name: 'GitHub',
     icon: FaGithub,
-    href: 'https://www.github.com/aross2010',
+    href: 'https://github.com/PaulineBGZI',
   },
   {
     name: 'Email',
     icon: FaEnvelope,
-    href: 'mailto:@alex.ross@sjsu.edu',
+    href: 'mailto:pauline.benghouzi@gmail.com',
   },
 ] as const

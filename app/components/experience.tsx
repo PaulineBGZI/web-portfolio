@@ -1,6 +1,6 @@
 'use client'
 import Header from './ui/header'
-import { experiences } from '../lib/data'
+import { experiences, formation } from '../lib/data'
 import Timeline from './ui/timeline'
 import { useSectionInView, useWindowSizeHook } from '../lib/hooks'
 
@@ -16,6 +16,9 @@ export default function Experience() {
     >
       <Header>Expériences</Header>
       <Timeline data={experiences} />
+
+      <Header>Formation</Header>
+      <Timeline data={formation} />
     </section>
   )
 }
