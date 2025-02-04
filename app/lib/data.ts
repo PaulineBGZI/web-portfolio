@@ -188,6 +188,10 @@ export const projects = [
         alt: 'php',
       },
       {
+        src: javascript,
+        alt: 'javascript',
+      },
+      {
         src: html,
         alt: 'html',
       },
