@@ -41,14 +41,7 @@ export default function About() {
           >
           Passionnée par le développement web, j&apos;ai l&apos;objectif de devenir 
           développeuse full stack, avec l&apos;ambition de créer 
-          des {' '}
-          <Link
-            href="/#skills"
-            className="hover:text-sjsu-gold transition-colors font-semibold"
-          >
-            expériences numériques{' '}
-          </Link>
-          à la fois innovantes et accessibles.
+          des expériences numériques à la fois innovantes et accessibles.
           <br />
           <br />
           Après l&apos;obtention de mon BUT Informatique, je souhaite poursuivre 
