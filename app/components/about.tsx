@@ -37,8 +37,8 @@ export default function About() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4, delay: 0.5 }}
           viewport={{ once: true }}
-          className="text-gray-400 text-lg"
-        >
+          className="text-gray-400 text-lg text-justify"
+          >
           Passionnée par le développement web, j&apos;ai l&apos;objectif de devenir 
           développeuse full stack, avec l&apos;ambition de créer 
           des {' '}

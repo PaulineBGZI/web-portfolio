@@ -6,10 +6,8 @@ import { useActiveSectionContext } from '../context/section-context'
 import { useEffect, useState } from 'react'
 import { useWindowSizeHook } from '../lib/hooks'
 
-// Define a type for the labels
 type Label = 'Accueil' | 'A Propos' | 'Compétences et projets' | 'Expériences' | 'Contact'
 
-// Mapping for abbreviations
 const labelAbbreviations: { [key in Label]?: string } = {
   'A Propos': 'Infos',
   'Compétences et projets': 'Compétences',
@@ -30,12 +28,11 @@ export default function Navbar() {
           left: activeLink.offsetLeft - linksContainer.offsetWidth / 2,
           behavior: 'smooth',
         })
-      }, 750) // allow time for section to scroll into view
+      }, 750)
     }
   }, [activeSection, width])
 
   const renderedLinks = links.map(({ hash, label }) => {
-    // Use abbreviations for long labels on small screens
     const shortLabel = labelAbbreviations[label as Label] || label
 
     return (
@@ -46,7 +43,7 @@ export default function Navbar() {
           onClick={() => {
             setActiveSection(label)
             setTimeOfLastClick(Date.now())
-            setIsMenuOpen(false) // Close menu after clicking a link
+            setIsMenuOpen(false)
           }}
           className={`rounded-full outline-none relative transition-all text-gray-400 font-medium px-2 py-1 flex ${
             activeSection == label
