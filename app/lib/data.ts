@@ -196,7 +196,7 @@ export const projects = [
         alt: 'css',
       },
     ],
-    link: null,
+    link: '#skills',
   },
   {
     name: 'Développement d\' une application bancaire',
@@ -209,7 +209,7 @@ export const projects = [
         alt: 'java',
       },
     ],
-    link: null,
+    link: '#skills',
   },
   {
     name: 'Création d\' un site web pour une entreprise fictive',
@@ -238,7 +238,7 @@ export const projects = [
         alt: 'javascript',
       },
     ],
-    link: null,
+    link: '#skills',
   },
   {
     name: 'Création et gestion d\' une base de données',
@@ -251,7 +251,7 @@ export const projects = [
         alt: 'sql',
       },
     ],
-    link: null,
+    link: '#skills',
   },
 ]
 

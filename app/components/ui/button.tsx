@@ -26,7 +26,6 @@ export default function Button({
   ) : (
     <Link
       href={href}
-      target="_blank"
     >
       {button}
     </Link>

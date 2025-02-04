@@ -23,7 +23,9 @@ export default function Skills() {
         viewport={{ once: true }}
         key={skill.name}
       >
-        <IconCard {...skill} />
+        <Link href="#projects">
+          <IconCard {...skill} />
+        </Link>
       </motion.li>
     )
   })
@@ -83,32 +85,34 @@ export default function Skills() {
         {SoftSkills}
       </ul> <br></br> <br></br>
 
-      <Header>Projets</Header>
-      <ul className="grid md:grid-cols-2 grid-cols-1 gap-4 md:auto-rows-fr">
-        {renderedProjects}
-        {projects.length % 2 !== 0 && (
-          <motion.div
-            initial={{ opacity: 0, x: 25 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{
-              duration: 0.4,
-              delay: 0.5,
-            }}
-            viewport={{ once: true }}
-            className="flex flex-col"
+      <div id="projects">
+        <Header>Projets</Header>
+        <ul className="grid md:grid-cols-2 grid-cols-1 gap-4 md:auto-rows-fr">
+          {renderedProjects}
+        </ul>
+      </div>
+
+      {projects.length % 2 !== 0 && (
+        <motion.div
+          initial={{ opacity: 0, x: 25 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{
+            duration: 0.4,
+            delay: 0.5,
+          }}
+          viewport={{ once: true }}
+          className="flex flex-col"
+        >
+          <Link
+            href="#skills"
+            className="h-full bg-transparent border border-sjsu-gold font-extrabold text-lg text-sjsu-gold hover:text-white hover:bg-sjsu-gold transition-all rounded-lg md:flex hidden flex-col items-center justify-center"
           >
-            <Link
-              href={'https://github.com/aross2010'}
-              className="h-full bg-transparent border border-sjsu-gold font-extrabold text-lg text-sjsu-gold hover:text-white hover:bg-sjsu-gold transition-all rounded-lg md:flex hidden flex-col items-center justify-center"
-            >
-              <h2 className="flex items-center gap-1">
-                AND MORE ON GITHUB! <FaGithub />
-              </h2>
-            </Link>
-          </motion.div>
-        )}
-      </ul>
-      <form></form>
+            <h2 className="flex items-center gap-1">
+              AND MORE ON GITHUB! <FaGithub />
+            </h2>
+          </Link>
+        </motion.div>
+      )}
     </section>
   )
 }
